@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6caa3cd7076d3c4787afb7795e7ddfa, type: 3}
+  m_Name: SuperCura
+  m_EditorClassIdentifier: Assembly-CSharp::DadosCartaSO
+  nomeCarta: Super Cura
+  descricao: Recupera 5 de vida
+  custo: 3
+  imagem: {fileID: -7362617693862048586, guid: 2e0302023340a2c4a8a97496a1ed56d9, type: 3}
+  poderDeAtaque: 0
+  poderDeCura: 5

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f333b6ae063f1e94a8149dfce02d930a, type: 3}
+  m_Name: BaralhoInicialSO
+  m_EditorClassIdentifier: Assembly-CSharp::BaralhoInicialSO
+  cartas:
+  - {fileID: 11400000, guid: c6fccbb46c8af6542907aa52da8d07f3, type: 2}
+  - {fileID: 11400000, guid: c6fccbb46c8af6542907aa52da8d07f3, type: 2}
+  - {fileID: 11400000, guid: b2be38443ffb95e49921c97df0744dd2, type: 2}
+  - {fileID: 11400000, guid: b2be38443ffb95e49921c97df0744dd2, type: 2}
+  - {fileID: 11400000, guid: 37dcae41b8ce2d042a46d61cb9133b66, type: 2}
+  - {fileID: 11400000, guid: 47aea28123ff4494d84f307e867bb5f5, type: 2}
