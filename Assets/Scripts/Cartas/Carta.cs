@@ -40,7 +40,7 @@ public class Carta : MonoBehaviour
         posOriginal = transform.localPosition; // Pos atual do objeto
         sortingOrderOriginal = sortingGroup.sortingOrder; // Ordem atual do objeto
     }
-    //Preenche os dadso visuais da carta + o valor de DadosCata
+    //Preenche os dados visuais da carta + o valor de DadosCata
     public void CarregarDadosCarta(DadosCartaSO dadosCarta) {
         this.dadosCarta = dadosCarta;
         imagemRenderer.sprite = dadosCarta.imagem;
