@@ -22,7 +22,7 @@ public static class EventosTurno
 
         AoInicioTurnoBoss?.Invoke();
     }
-    public static void TerminarTurnoBoss() { // Dispara o evento de fim do turno do boss.
+    public static void FinalizarTurnoBoss() { // Dispara o evento de fim do turno do boss.
         AoFimTurnoBoss?.Invoke();
     }
 }

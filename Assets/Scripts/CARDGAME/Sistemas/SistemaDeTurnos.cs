@@ -20,7 +20,7 @@ public class SistemaDeTurnos : Singleton<SistemaDeTurnos>
 
     private int acoesRestantes; // Quantidade atual de ações disponíveis.
 
-    private void Awake()
+    protected override void Awake()
     {
         base.Awake(); // Inicializa o Singleton.
         acoesRestantes = maxAcoesPorTurno; // Começa o jogo com o máximo de ações.
@@ -71,7 +71,7 @@ public class SistemaDeTurnos : Singleton<SistemaDeTurnos>
 
     private IEnumerator FinalizarTurnoBoss() { // Finaliza o turno do boss.
         Debug.Log("Finalizar turno Boss");
-        EventosTurno.FinalizarTurnoJogador(); // Notifica o fim do turno.
+        EventosTurno.FinalizarTurnoBoss(); // Notifica o fim do turno.
         yield return new WaitForSeconds(tempoDelayBoss);
         StartCoroutine(EsperaEntreTurnoCO()); // Aguarda antes de trocar de turno.
     }
